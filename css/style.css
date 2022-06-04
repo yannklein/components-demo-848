@@ -3,6 +3,10 @@
 
 /* --- Components design --- */
 @import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
 /* TODO: import new components */
 
 /* --- Fonts & colors --- */
@@ -18,4 +22,9 @@ h1, h2, h3 {
 
 .text-center {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
 }

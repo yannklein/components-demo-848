@@ -1,4 +1,19 @@
 .container {
   /* TODO */
+  width: 600px;
+  margin: 0 auto;
 }
 
+@media (max-width: 700px) {
+  .container {
+    /* TODO */
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    /* TODO */
+    width: 300px;
+  }
+}
